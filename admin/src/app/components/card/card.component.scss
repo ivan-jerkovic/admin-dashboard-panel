@@ -1,0 +1,47 @@
+.card {
+    width: 600px;
+    height: 400px;
+    background-color: #f8f8f8;
+    color: #131313;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    @media only screen and (max-width: 1600px) {
+      width: 480px;
+      height: 320px;
+    }
+    @media only screen and (max-width: 1500px) {
+      width: 450px;
+      height: 300px;
+    }
+    @media only screen and (max-width: 1400px) {
+      width: 420px;
+      height: 280px;
+    }
+    @media only screen and (max-width: 1200px) {
+      width: 360px;
+      height: 240px;
+    }
+    .title-section {
+      display: flex;
+      .title {
+        text-align: left;
+        font-size: 3em;
+        font-weight: 800;
+      }
+      .subtitle {
+        text-align: left;
+        font-size: 0.4em;
+        font-weight: 400;
+        color: #636363;
+      }
+      .card-icon {
+        margin: 10px 10px 10px auto;
+      }
+      .large-icon {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+  

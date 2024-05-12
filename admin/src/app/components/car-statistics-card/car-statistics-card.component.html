@@ -1,0 +1,35 @@
+<div class="card car-statistics-card">
+  <div class="title-section">
+    <div class="title">
+      Car Statistics
+      <p class="subtitle">Number of cars per color</p>
+    </div>
+    <div class="card-icon">
+      <i-feather class="large-icon" name="truck"></i-feather>
+    </div>
+  </div>
+  <table class="car-statistics">
+    <tbody>
+      <tr>
+        <td width="6%">
+          <span class="dot red"></span>
+        </td>
+        <td>{{ coloredCars[0]?.amount }} {{ coloredCars[0]?.color }}</td>
+        <td width="6%">
+          <span class="dot blue"></span>
+        </td>
+        <td>{{ coloredCars[1]?.amount }} {{ coloredCars[1]?.color }}</td>
+      </tr>
+      <tr>
+        <td width="6%">
+          <span class="dot green"></span>
+        </td>
+        <td>{{ coloredCars[2]?.amount }} {{ coloredCars[2]?.color }}</td>
+        <td width="6%">
+          <span class="dot yellow"></span>
+        </td>
+        <td>{{ coloredCars[3]?.amount }} {{ coloredCars[3]?.color }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

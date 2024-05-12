@@ -1,0 +1,13 @@
+<div class="card calendar-card">
+  <div class="title-section">
+    <div class="title">Calendar</div>
+    <div class="card-icon">
+      <i-feather class="large-icon" name="calendar"></i-feather>
+    </div>
+  </div>
+  <div class="calendar-section">
+    <mat-card (click)="onClick()" class="inline-calendar">
+      <mat-calendar [(selected)]="selected"></mat-calendar>
+    </mat-card>
+  </div>
+</div>

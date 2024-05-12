@@ -1,0 +1,50 @@
+.header {
+  height: 70px;
+  padding: 20px 20px;
+  background-color: #f2f2f2;
+  color: #131313;
+  display: flex;
+  .user {
+    display: flex;
+    align-items: center;
+    .user-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      background-color: #b7deec;
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .user-details {
+      margin: 0px 10px;
+      font-size: small;
+      .user-name {
+        padding-bottom: 1px;
+      }
+      .user-status {
+        color: #636363;
+        padding-top: 1px;
+      }
+    }
+  }
+  .header-icons {
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    .header-icon {
+      margin: 2px 20px 0px;
+      :hover {
+        transform: scale(1.15);
+        cursor: pointer;
+      }
+    }
+    .small-icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

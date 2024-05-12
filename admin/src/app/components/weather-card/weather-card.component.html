@@ -1,0 +1,20 @@
+<div class="card weather-card">
+  <div class="title-section">
+    <div class="title">
+      Bihać
+      <p class="subtitle">Today's forecast</p>
+    </div>
+    <div class="card-icon">
+      <i-feather class="large-icon sun" name="sun"></i-feather>
+    </div>
+  </div>
+  <div class="weather-section">
+    <div class="temperature">
+      {{ weather?.temperature }}°C
+      <p class="weather-type">{{ weather?.type }}</p>
+    </div>
+    <div class="weather-icon">
+      <i-feather class="extra-large-icon" name="{{ weather?.icon }}"></i-feather>
+    </div>
+  </div>
+</div>
